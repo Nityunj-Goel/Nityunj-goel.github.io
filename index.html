@@ -1,0 +1,82 @@
+<!DOCTYPE html>  <!--signifies implementation of html5-->
+<html lang="en">  <!--lang="en" specifies language of webpage for easier navigation and location by web browsers, we can also add country code here -->
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--gives responsive character to the website, -->
+      <meta charset="UTF-8">  <!-- specifies the encoding to be used, in this case, it is UTF-8-->
+    </head>
+    <title>Nityunj Goel: About Me</title>  <!--title is the piece of text to be displayed on the tab of that webpage -->
+    <style>  /*<style> is used as an alternative to an external css stylesheet*/
+        a:link {  /* a:link signifies properties of the displayed link.. i.e. when the page is opened afresh*/
+          color: #0096cc;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {  /* signifies properties of the link which has been visited by the user*/
+          color: #0096cc;
+          background-color: transparent;
+          text-decoration:none;
+          
+        }
+        
+        a:hover {  /* hover: signifies properties of the link when user hovers his/her pointer over it */
+          color: #064d8b;
+          background-color: none;
+          text-decoration: underline;
+        }
+        a:active { /*signifies properties of the link when it is being used*/
+          color: #0096cc;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        a{ /* properties will be applied to all <A> tags in any state */
+            font-size: 27px;
+        }
+        img {
+            display: block;   /* specifies display type(block, inline, flex,etc)*/
+            margin-left: auto;  /*line 37 and 38 help in centering the image*/
+            margin-right: auto;
+            border-radius: 50%;  /*used to make image circular in shape*/
+            border:1px solid  rgba(103, 161, 216, 0.322); /* specifies border width and color*/
+            padding: 10px;    /*adds some padding(space) around the img*/
+        }
+        img:hover{
+          border: 1px solid black;
+        }
+        
+        p{ /* properties will be applied to all <p> tags*/
+            font-size: 18px;
+            padding-left: 30%;
+        }
+
+    </style>
+    <body>
+        <h1 style="font-size: 27; color: #0096cc; display: inline;">NITYUNJ</h1> /* h1 gives a header. we can have headers from h1 to h6 in decreasing order of importance. style is an attribute which has some properties which have some value*/
+                                  <!-- -DONT FORGET TO ADD THE SUITABLE LINK IN href ATTRIBUTES:) - -->
+
+        <a href="https://Nityunj-goel.github.io/Skills" style="float :right" target="_blank">Skills</a>  /*href gives the destination link of the <a> tag...."skills" is its name...i.e the text that wold be displayed which when clicked on will redirect to the destination  */
+        <a href="https://Nityunj-goel.github.io/MyHobbies" style="float :right;margin-right:50px" target="_blank">My Hobbies</a> /*target="_blank" signifies that link will open in a new tab*/
+        <a href="https://Nityunj-goel.github.io" style="float :right;margin-right:50px">About me</a> /* margin-right:50px helps give the required space between the links in this case*/
+        <!-- style="float:right "helps align the links to right. find out why text-align:right doesnt work-->
+        
+        <div style="background-color: rgba(103, 161, 216, 0.123) ;">  /*<div> tag acts as a conainer tag which helps in giving certtin properties in common  to all other elements inside it */
+          <hr>  <!--gives a horizontal rule i.e a horizontal line-->
+          <br>  <!-- Break Rule helps in leaving a line -->
+          <img src="my_photo.jpg" alt="My Photo" width="100" height="100">  <!-- <img> tag has no ending tag(i.e. </img>). src contains img url(absollute or relative). alt is "alternate text" which is displayed if for some reason browser couldnt display the original img-->
+          <h1 style="text-align:center ; text-decoration: underline; color: #0096cc; font-size:27; ">NITYUNJ GOEL</h1>
+          <br>
+          <hr>
+          
+        </div>
+        <h1 style="font-size: 27; color: #0096cc; display: inline; padding-left: 30%;">About Me</h1>
+        <p>
+          I'm currently an undergrad student pursuing my bachelors in technology in <br><br> Computer Science branch from NSUT.
+          I love to travel to different places, <br><br>enjoy a variety of cuisines and I'm also a gaming enthusiast.
+          I'm a happy-go-<br><br>lucky kind of a person and I like to meet with different people and make new <br><br>
+          friends. I'm also passionate about coding and I love to always keep learning <br><br>about new 
+          things.While travelling, I mainly prefer places enriched with natural <br><br>beauty like hill  
+          stations because this is something which attracts me. I just love <br><br>watching the waterfalls, the greenery and all other such stuff.
+        </p>
+        
+    </body>
+</html> 
